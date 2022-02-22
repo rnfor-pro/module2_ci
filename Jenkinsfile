@@ -2,8 +2,6 @@ pipeline{
   agent any 
   tools { maven 'maven'}
   stages{
-     stage('Cleanup Workspace') {
-       steps {
 
     stage('git-clone'){
       steps{
